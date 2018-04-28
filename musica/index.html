@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width:divce-width,user-scalable=no">
 <title>Musica</title>
-<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link rel="stylesheet" href="css/estilos.css">
 
 </head>
@@ -12,61 +12,79 @@
 <body>
 <header>
 <div class="row">
-	<div class="col-lg-12 col-md-8 col-sm-7 col-xs-6">
-		<div class="col-lg-4 col-md-2 col-sm-2 "><img src="img/logo2.png" class="img-fluid"></div>
-    	<div class="col-lg-4 col-md-2 col-sm-2 offset-8">
-    	<div class="container">
-			<ul class="list-inline">
-				<li><img src="img/facebook.png"></li>
-				<li><img src="img/twitter.png"></li>
-				<li><img src="img/sky.png"></li>
-			</ul>
-   		</div>
-    	</div>
-     </div>	
-     <div class="row">
-     <div class="col-lg-12 col-md-8 col-sm-7 col-xs-6" >
-     	<div class="nav-justified-content-center">
-			<ul class="nav justify-content-center">
-                <li class="nav-item">
-                   <a class="nav-link active" href="#"><button type="button" class="btn btn-primary btn-lg">inicio</button></a>
-                </li>
-  				<li class="nav-item">
-    				<a class="nav-link disabled" href="#"><button type="button" class="btn btn-secondary btn-lg">Artistas</button></a>
-  				</li>
-  				<li class="nav-item">
-   					 <a class="nav-link disabled" href="#"><button type="button" class="btn btn-secondary btn-lg">Grupos</button></a>
-  				</li>
-  				<li class="nav-item">
-   					 <a class="nav-link disabled" href="#"><button type="button" class="btn btn-secondary btn-lg">Top 10</button></a>
-  				</li>
-  				<li class="nav-item">
-   					 <a class="nav-link disabled" href="#"><button type="button" class="btn btn-secondary btn-lg">Letras</button></a>
- 				</li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#"><button type="button" class="btn btn-secondary btn-lg">Acordes</button></a>
-  </li>
-</ul>
-		</div>
-		
-		</div>
-		    </div>	
+	<div class="col-12">
+<img src="img/logo2.png" class="img-fluid">
+<a class="align-bottom offset-10"><img src="img/facebook.png" href="https://www.facebook.com/javier.e.pieschacon" ><img src="img/twitter.png" href="https://www.facebook.com/javier.e.pieschacon"><img src="img/sky.png" href="https://www.facebook.com/javier.e.pieschacon"></a>
+</div>
 	
+</div>
+<div class="nav-fill">
+  <ul class="nav justify-content-center">
+    <li class="nav-item"> <a class="nav-link active" href="#">
+      <button type="button" class="btn btn-primary btn-lg">inicio</button>
+    </a> </li>
+    <li class="nav-item"> <a class="nav-link disabled" href="#">
+      <button type="button" class="btn btn-secondary btn-lg">Artistas</button>
+    </a> </li>
+    <li class="nav-item"> <a class="nav-link disabled" href="#">
+      <button type="button" class="btn btn-secondary btn-lg">Grupos</button>
+    </a> </li>
+    <li class="nav-item"> <a class="nav-link disabled" href="#">
+      <button type="button" class="btn btn-secondary btn-lg">Top 10</button>
+    </a> </li>
+    <li class="nav-item"> <a class="nav-link disabled" href="#">
+      <button type="button" class="btn btn-secondary btn-lg">Letras</button>
+    </a> </li>
+    <li class="nav-item"> <a class="nav-link disabled" href="#">
+      <button type="button" class="btn btn-secondary btn-lg">Acordes</button>
+    </a> </li>
+  </ul>
 </div>
 </header>
 
 
 <section>
- <div class="container-fluid">
+ <div class="row">
  	
- 	<div class="col-lg-12 col-md-6 col-sm-4">
- 		
- 		
- 	</div>
- </div>
+ 	
+ 	  <div class="col-6">
+		<div class="text-justify">
+			<img src="img/bwv861-lilypond-large.png" width="30%">ogo: Utiliza el sistema de rejilla de bootstrap para ubicar el logo del blog en la parte derecha de la pantalla, recuerda usar una imagen.
+Redes Sociales: Utilizando la rejilla y los iconos correspondientes, ubica los vínculos o enlaces a las diferentes redes sociales, estos deben estar ubicados en la esquina inferior izquierda del header.
+		</div>
+		<div>
+		<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Button</button>
+  </div>
+</div>	
+		</div>
+	  </div>
+ 	  <div class="col-4 offset-2">
+	 <div><form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form></div>
+    <div>
+    	<ul>
+    		<li>1</li>
+    		<li>2</li>
+    		<li>3</li>
+    		<li>4</li>
+    		<li>5</li>
+    		<li>6</li>
+    	</ul>
+    </div>
+	 </div>
+</div>
+
 </section>
 <footer>
 	
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
